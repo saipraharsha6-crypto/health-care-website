@@ -1,0 +1,8 @@
+# CarePlus Clinic & Wellness Center - robots.txt
+# Allow all web crawlers to index the entire website
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: sitemap.xml

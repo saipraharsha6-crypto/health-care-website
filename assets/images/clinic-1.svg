@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="clinicBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" />
+      <stop offset="100%" stop-color="#0f172a" />
+    </linearGradient>
+    <linearGradient id="windowBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Room Wall -->
+  <rect width="400" height="300" fill="url(#clinicBg)" />
+  
+  <!-- Floor -->
+  <rect y="220" width="400" height="80" fill="#334155" />
+  <line x1="0" y1="220" x2="400" y2="220" stroke="#10b981" stroke-width="2" />
+
+  <!-- Window in the background -->
+  <rect x="250" y="40" width="100" height="120" rx="8" fill="url(#windowBg)" stroke="#64748b" stroke-width="4" />
+  <line x1="300" y1="40" x2="300" y2="160" stroke="#64748b" stroke-width="2" />
+  <line x1="250" y1="100" x2="350" y2="100" stroke="#64748b" stroke-width="2" />
+  <!-- Sun/Cloud in Window -->
+  <circle cx="280" cy="70" r="10" fill="#fef08a" />
+  
+  <!-- Clinic Cross Logo on Wall -->
+  <g transform="translate(60, 60)">
+    <circle cx="0" cy="0" r="22" fill="#1e293b" stroke="#10b981" stroke-width="2" />
+    <path d="M-4,-12 L4,-12 L4,-4 L12,-4 L12,4 L4,4 L4,12 L-4,12 L-4,4 L-12,4 L-12,-4 L-4,-4 Z" fill="#10b981" />
+  </g>
+
+  <!-- Consultation Desk -->
+  <rect x="120" y="160" width="180" height="10" rx="3" fill="#cbd5e1" />
+  <rect x="140" y="170" width="30" height="50" fill="#475569" />
+  <rect x="250" y="170" width="30" height="50" fill="#475569" />
+
+  <!-- Laptop on Desk -->
+  <rect x="195" y="138" width="30" height="20" rx="2" fill="#0f172a" stroke="#cbd5e1" stroke-width="1.5" />
+  <path d="M 190 158 L 230 158 L 226 161 L 194 161 Z" fill="#94a3b8" />
+
+  <!-- Stethoscope on Desk -->
+  <path d="M 155 155 Q 165 150 170 158 T 180 152" fill="none" stroke="#10b981" stroke-width="2" stroke-linecap="round" />
+  <circle cx="154" cy="155" r="2.5" fill="#94a3b8" />
+
+  <!-- Doctor's Chair -->
+  <path d="M 60 150 H 100 V 170 H 60 Z" fill="#1e293b" stroke="#64748b" stroke-width="2" />
+  <rect x="75" y="170" width="10" height="40" fill="#475569" />
+  <rect x="65" y="210" width="30" height="12" rx="4" fill="#1e293b" />
+
+  <!-- Patient's Chair -->
+  <path d="M 310 160 H 345 V 180 H 310 Z" fill="#1e293b" stroke="#64748b" stroke-width="2" />
+  <rect x="323" y="180" width="8" height="42" fill="#475569" />
+  <rect x="313" y="220" width="28" height="10" rx="3" fill="#1e293b" />
+
+  <!-- Desk Light -->
+  <path d="M 125 160 L 130 135 L 140 137" fill="none" stroke="#94a3b8" stroke-width="2" />
+  <path d="M 136 130 C 136 130 144 125 146 135 Z" fill="#f59e0b" />
+</svg>
